@@ -44,7 +44,7 @@ export const Question = () => {
             <div className={styles.answer}><span className={styles.span}>D:&nbsp;&nbsp;</span>{questions[questionNumber].answers[3]}</div>
           </div>
         :
-        <div className={styles.answers}>
+        <div className={styles.answersIntermediate}>
           <div className={styles.wrapper}>
             <label className={styles.label}>
               {teams[0].name}

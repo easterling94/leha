@@ -16,18 +16,25 @@ export const Final = () => {
           table ?
           table.map((el, i) => {
             return (
-                <div key={el.id} className={styles.wrapper}>
-                  <label className={styles.label}>
+                <div key={el.id} className={styles.wrapper} value={el.score}>
+                  <label className={`${styles.label} ${i === 0 ? styles.first : ''}`}>
                     {el.name}
                   </label>
-                    <input readOnly id={el.id} className={`${styles.input} ${i === 0 ? styles.first : ''}`} value={el.score}></input>
+                    <input readOnly id={el.id} className={styles.input} value={el.score}></input>
                 </div>
             )
           })
           :
           ''
         }
-        <div>ПОЗДРАВЛЯЕМ</div>
+        {
+          table ?
+          <div className={styles.congrats}>
+            ПОЗДРАВЛЯЕМ команду {table[0].name}! Вы настоящие поклонники Леши! Остальным соболезнуем...
+          </div>
+          :
+          ''
+        }
       </div>
     </div>
   )

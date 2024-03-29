@@ -31,5 +31,13 @@
   border: none;
 }
 .first {
-  background-color: aquamarine;
+  background-color: rgb(9, 245, 28);
+}
+.congrats {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 200%;
+  border: 10px solid rgb(77, 77, 255);
+  background-color: rgb(10, 0, 146);
+  color: white;
 }
