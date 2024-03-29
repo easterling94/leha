@@ -11,7 +11,7 @@ export const Start = () => {
   return (
     <div className={styles.body}>
       <div className={styles.star}>*</div>
-      <div className={styles.note}>* если бы за каждый &nbsp;<span className={styles.span}>кринж</span>постинг Леши давали по рублю</div>
+      <div className={styles.note}>* если бы за каждый Лешин &nbsp;<span className={styles.span}>кринж</span>постинг давали по рублю</div>
       <div className={styles.next}><Next next={next}/></div>
     </div>
   )
