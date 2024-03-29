@@ -14,8 +14,8 @@
   font-size: 3em;
   font-weight: bold;
   position: absolute;
-  left: 1200px;
-  top: 250px;
+  left: 63%;
+  top: 25%;
 }
 .note {
   height: 130px;
@@ -26,8 +26,8 @@
   font-size: 3em;
   font-weight: bold;
   position: absolute;
-  left: 290px;
-  top: 750px;
+  left: 15%;
+  bottom: 5%;
 }
 .span {
   text-decoration: line-through;
@@ -35,6 +35,6 @@
 }
 .next {
   position: absolute;
-  left: 700px;
-  top: 600px;
+  left: calc(50% - 200px);
+  bottom: 24%;
 }
