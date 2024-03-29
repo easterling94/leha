@@ -10,7 +10,7 @@
 .image {
   cursor: pointer;
   margin-left: 10%;
-  max-height: 850px;
+  max-height: 95%;
 }
 .answers {
   position: fixed;
