@@ -63,6 +63,18 @@ export const Question = () => {
             </label>
               <input id={2} className={styles.input} onChange={(e) => handleChange(e)} value={teams[2].score}></input>
           </div>
+          <div className={styles.wrapper}>
+            <label className={styles.label}>
+            {teams[3].name}
+            </label>
+              <input id={3} className={styles.input} onChange={(e) => handleChange(e)} value={teams[3].score}></input>
+          </div>
+          <div className={styles.wrapper}>
+            <label className={styles.label}>
+            {teams[4].name}
+            </label>
+              <input id={4} className={styles.input} onChange={(e) => handleChange(e)} value={teams[4].score}></input>
+          </div>
           <Next next={next} word={word}/>
         </div>
       }

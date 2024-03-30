@@ -3,7 +3,7 @@ import type { PayloadAction } from '@reduxjs/toolkit';
 import { IQuestion, QUESTIONS } from '../../questions/questions';
 
 interface ITeam {
-  id: 1 | 2 | 3;
+  id: 1 | 2 | 3 | 4 | 5;
   name: string;
   score: number;
 }
@@ -31,6 +31,16 @@ const initialState: initialState = {
     },
     {
       id: 3,
+      name: '',
+      score: 0,
+    },
+    {
+      id: 4,
+      name: '',
+      score: 0,
+    },
+    {
+      id: 5,
       name: '',
       score: 0,
     },
