@@ -44,7 +44,7 @@ export const Teams = () => {
         </div>
         <div>
           <label className={styles.label}>
-            Команда 5
+            Участник 5
           </label>
             <input id={4} className={styles.input} onChange={(e) => handleChange(e)} value={teams[4].name}></input>
         </div>
